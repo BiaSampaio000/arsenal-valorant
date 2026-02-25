@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f1923, #1f2a35);
+    color: white;
+}
+
+header {
+    background: #ff4655;
+    padding: 20px 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+nav h2 {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+
+#produtos {
+    padding: 40px;
+    text-align: center;
+}
+
+table{
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #1f2a35;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #ff4655;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+th, td {
+    padding: 18px;
+}
+
+tr {
+    transition: 0.3s;
+}
+
+tr:hover{
+    background-color: #2d3b47;
+    transform: scale(1.01);
+}
+
+td img {
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+td img:hover {
+    transform: scale(1.1);
+}
+
+
+footer {
+    background-color: #0f1923;
+    padding: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+.sobre {
+    padding: 60px;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.contato {
+    padding: 60px;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    background-color: #ff4655;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e03b49;
+}
+
+.introducao {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+    .armas {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 280px));
+        gap: 25px;
+        padding: 40px;
+        justify-content: center; 
+    }
+
+  .pistolas {
+    padding: 40px 0;
+}
+
+.pistolas-container {
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    grid-template-columns: repeat(2, 280px);
+    
+}
+
+.pistolas h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+    .card {
+        background-color: #1f2a35;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        max-width: 280px;
+    }
+
+    .card img {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        background-color: #2d3b47;
+}
+
+.pistolas-container {
+    display: flex !important;
+    flex-direction: row !important;
+}
